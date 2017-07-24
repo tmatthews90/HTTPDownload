@@ -37,7 +37,7 @@ file = open("urls.csv")
 row_count = len(file.readlines())
 print("")
 
-with open('urls.csv', 'rb') as f:
+with open('urls.txt', 'rb') as f:
     count = 1
     reader = csv.reader(f, delimiter=' ')
     exportDIR = datetime.now().strftime('%Y-%m-%d_%H.%M.%S')
